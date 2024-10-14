@@ -41,8 +41,7 @@ const division = divide(30, 10)
 
 // function default parameter
 
-function greet(name){
-    name = "guest" 
+function greet(name = "guest"){     
     return "Hello" + " " + `${name}`
 }
 
@@ -50,3 +49,4 @@ console.log(sum2)
 console.log(newMultiply(4,10))
 console.log(division)
 console.log(greet())
+console.log(greet("tosin"))
